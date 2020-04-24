@@ -27,7 +27,10 @@ proceed to the end before counting the last word. But the last word is simply th
 word when iterating backwards.
 
 */
-
+/**
+ * @param {string} s
+ * @return {number}
+ */
 const lengthOfLastWord = function(s) {
   let count = 0;
   
